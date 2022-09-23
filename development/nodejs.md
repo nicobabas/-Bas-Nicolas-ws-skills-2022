@@ -6,8 +6,13 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ❌ / ✔️
+- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ✔️
+    npm install --save-dev nodemon (pour l'installer uniquement dans les devdependencies)
+    Dans le package.json, on modifie le "scripts": { "start": "nodemon nom de mon app.js" }
+    le server se lancera automatiquement à chaque modification du fichier.
+
 - La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ❌ / ✔️
+
 - Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌ / ✔️
 - *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ / ✔️
 
