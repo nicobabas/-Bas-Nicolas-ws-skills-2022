@@ -6,9 +6,25 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- les `structures` de base du langage ✔️
+
+    programmation dynamique
+    manipulation du Dom (ex: getElementBy)
+    utilisation des variables (let, const)
+  
+- les normes `ecmascript` ✔️
+
+    ES13
+    on n'utilise plus le var (let number = 5)
+    les fonctions fléchées ( const myFonction = () => {})
+    le spread operateur ( ...myArray )
+    
+- l'utilisation de l'`asynchrone` ✔️
+
+    fonction qui demande un délai d'attente. Avant de passer à la suite du code (dans notre fonction) on attend que le code précédent s'éxécute!
+    async => await
+    then => catch
+
 - les spécifités du mot-clef `this` ❌ / ✔️
 
 ## 💻 Je code en Javascript
